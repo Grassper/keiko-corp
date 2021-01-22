@@ -163,52 +163,7 @@ $(document).ready(function () {
     background: "rgba(48, 48, 48, .4)",
     cursorcolor: '#1f1f1f',
     zindex: 999
-  }); //Testimonials slider initialization
-
-  $("#tslider").owlCarousel({
-    items: 1,
-    navigation: true,
-    pagination: false,
-    slideSpeed: 300,
-    paginationSpeed: 400,
-    singleItem: true,
-    responsive: true,
-    autoPlay: true,
-    transitionStyle: "fade"
-  }); //Mailchimp subscription form initialization
-
-  $('#submit_form').submit(function () {
-    $('#mc_submit').attr('disabled', 'disabled');
-    processing('icon', 'loading');
-  });
-
-  if ($('#submit_form').length) {
-    //Mailchim Subscription form
-    $('#submit_form').ajaxChimp({
-      callback: chimpResponce
-    });
-  } //Mail chimp callback function
-
-
-  function chimpResponce(resp) {
-    if (resp.result === 'success') {
-      processing('loading', 'icon');
-      $('#mc_submit').removeAttr('disabled', 'disabled');
-      $('#submit_form #mc-email').val('');
-      $('#error_msg').hide();
-      $('#success_msg').show();
-    } else {
-      processing('loading', 'icon');
-      $('#success_msg').hide();
-      $('#error_msg').show();
-      $('#mc_submit').removeAttr('disabled', 'disabled');
-    }
-  }
-
-  function processing(hide, show) {
-    $('#mc_submit i').removeClass(hide).addClass(show);
-  } //Popup video
-
+  }); //Popup video
 
   $('#play_video').click(function (e) {
     e.preventDefault();
@@ -251,7 +206,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "51823" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "53206" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
@@ -428,4 +383,4 @@ function hmrAcceptRun(bundle, id) {
   }
 }
 },{}]},{},["node_modules/parcel-bundler/src/builtins/hmr-runtime.js","js/main.js"], null)
-//# sourceMappingURL=main.fb6bbcaf.js.map
+//# sourceMappingURL=/main.fb6bbcaf.js.map
