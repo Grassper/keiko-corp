@@ -1,11 +1,11 @@
 /*		Fonts	*/
 @font-face {
     font-family: 'open_regular';
-    src: url('/opensans-regular.0178158f.eot');
-    src: url('/opensans-regular.0178158f.eot?#iefix') format('embedded-opentype'),
-         url('/opensans-regular.51957562.woff') format('woff'),
-         url('/opensans-regular.f6d397e2.ttf') format('truetype'),
-         url('/opensans-regular.bcd54ec1.svg#LatoRegular') format('svg');
+    src: url('opensans-regular.0178158f.eot');
+    src: url('opensans-regular.0178158f.eot?#iefix') format('embedded-opentype'),
+         url('opensans-regular.51957562.woff') format('woff'),
+         url('opensans-regular.f6d397e2.ttf') format('truetype'),
+         url('opensans-regular.bcd54ec1.svg#LatoRegular') format('svg');
     font-weight: normal;
     font-style: normal;
 	font-display: swap;
@@ -14,11 +14,11 @@
 
 @font-face {
     font-family: 'open_bold';
-    src: url('/opensans-bold.18af9bac.eot');
-    src: url('/opensans-bold.18af9bac.eot?#iefix') format('embedded-opentype'),
-         url('/opensans-bold.1b921bc3.woff') format('woff'),
-         url('/opensans-bold.8142e53e.ttf') format('truetype'),
-         url('/opensans-bold.a6ff1f46.svg#LatoRegular') format('svg');
+    src: url('opensans-bold.18af9bac.eot');
+    src: url('opensans-bold.18af9bac.eot?#iefix') format('embedded-opentype'),
+         url('opensans-bold.1b921bc3.woff') format('woff'),
+         url('opensans-bold.8142e53e.ttf') format('truetype'),
+         url('opensans-bold.a6ff1f46.svg#LatoRegular') format('svg');
     font-weight: normal;
     font-style: normal;
 	font-display: swap;
@@ -27,11 +27,11 @@
 
 @font-face {
     font-family: 'open_semibold';
-    src: url('/opensans-semibold.e6fc524d.eot');
-    src: url('/opensans-semibold.e6fc524d.eot?#iefix') format('embedded-opentype'),
-         url('/opensans-semibold.0046cb09.woff') format('woff'),
-         url('/opensans-semibold.f09973da.ttf') format('truetype'),
-         url('/opensans-semibold.c5d781c5.svg#open_sanssemibold') format('svg');
+    src: url('opensans-semibold.e6fc524d.eot');
+    src: url('opensans-semibold.e6fc524d.eot?#iefix') format('embedded-opentype'),
+         url('opensans-semibold.0046cb09.woff') format('woff'),
+         url('opensans-semibold.f09973da.ttf') format('truetype'),
+         url('opensans-semibold.c5d781c5.svg#open_sanssemibold') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -201,7 +201,7 @@ header .social li:first-child{
 	position: relative;
 	width: 100%;
 	height: 560px;
-	background: url('/hero.3ad8264a.jpg') no-repeat fixed center center;
+	background: url('hero.3ad8264a.jpg') no-repeat fixed center center;
 	background-size: cover;
 }
 
@@ -263,15 +263,15 @@ a.app_store_btn{
 }
 
 .play_icon{
-	background: url('/play.d322f354.png') no-repeat;
+	background: url('play.d322f354.png') no-repeat;
 }
 
 .iphone_icon{
-	background: url('/iphone_app.5a9ac0d2.png') no-repeat;
+	background: url('iphone_app.5a9ac0d2.png') no-repeat;
 }
 
 .android_icon{
-	background: url('/android_app.71c64c15.png') no-repeat;
+	background: url('android_app.71c64c15.png') no-repeat;
 }
 
 
@@ -282,15 +282,15 @@ a.app_store_btn:focus{
 }
 
 a.app_store_btn:hover .play_icon{
-	background: url('/play_hover.00e586aa.png') no-repeat;
+	background: url('play_hover.00e586aa.png') no-repeat;
 }
 
 a.app_store_btn:hover .iphone_icon{
-	background: url('/iphone_app_hover.28d384a6.png') no-repeat;
+	background: url('iphone_app_hover.28d384a6.png') no-repeat;
 }
 
 a.app_store_btn:hover .android_icon{
-	background: url('/android_app_hover.f61fab6e.png') no-repeat;
+	background: url('android_app_hover.f61fab6e.png') no-repeat;
 }
 
 a.app_link{
@@ -343,7 +343,7 @@ a.app_link{
     height: 38px;
     top: 50px;
     right: 50px;
-    background: url('/close_video.7813e393.png') no-repeat;
+    background: url('close_video.7813e393.png') no-repeat;
     z-index: 9999;
 }
 
@@ -454,27 +454,27 @@ a.app_link{
 }
 
 .about .features_list ul li.camera_icon{
-	background: url('/icon1.1e014101.png') no-repeat;
+	background: url('icon1.1e014101.png') no-repeat;
 	background-position: 0 15px;
 }
 
 .about .features_list ul li.video_icon{
-	background: url('/icon2.c45f0d3a.png') no-repeat;
+	background: url('icon2.c45f0d3a.png') no-repeat;
 	background-position: 0 15px;
 }
 
 .about .features_list ul li.eye_icon{
-	background: url('/icon3.9d443749.png') no-repeat;
+	background: url('icon3.9d443749.png') no-repeat;
 	background-position: 0 14px;
 }
 
 .about .features_list ul li.pic_icon{
-	background: url('/icon4.a3c8ff8d.png') no-repeat;
+	background: url('icon4.a3c8ff8d.png') no-repeat;
 	background-position: 0 14px;
 }
 
 .about .features_list ul li.loc_icon{
-	background: url('/icon5.4a95a68b.png') no-repeat;
+	background: url('icon5.4a95a68b.png') no-repeat;
 	background-position: 3px 13px;
 }
 
@@ -603,7 +603,7 @@ a.app_link{
 	display: inline-block;
 	width: 32px;
 	height: 32px;
-	background: url('/nav_arrow.f164c6a3.png') no-repeat;
+	background: url('nav_arrow.f164c6a3.png') no-repeat;
 	text-indent: -200px;
 	overflow: hidden;
 
@@ -624,7 +624,7 @@ a.app_link{
 #tslider .owl-controls .owl-prev:hover,
 #tslider .owl-controls .owl-next:hover{
 	cursor: pointer;
-	background: url('/nav_arrow_hover.a002df88.png') no-repeat;
+	background: url('nav_arrow_hover.a002df88.png') no-repeat;
 }
 
 #tslider .owl-controls .owl-prev:hover{
@@ -720,11 +720,11 @@ a.app_link{
 }
 
 #mc_submit i.icon{
-	background: url('/sub_icon.71b73162.png') no-repeat;
+	background: url('sub_icon.71b73162.png') no-repeat;
 }
 
 #mc_submit i.loading{
-	background: url('/loading.0014f50c.gif') no-repeat;
+	background: url('loading.0014f50c.gif') no-repeat;
 }
 
 .sub_box .message{
@@ -925,4 +925,4 @@ footer .copyright a{
 }
 
 
-/*# sourceMappingURL=/main.c52e0fe2.css.map */
+/*# sourceMappingURL=main.c52e0fe2.css.map */
